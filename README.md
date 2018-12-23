@@ -8,8 +8,8 @@
 </p>
 
 <p align="center">
-  <a href="https://www.npmjs.com/package/@n4bb12/celeste-api-types">
-    <img alt="Version" src="https://flat.badgen.net/npm/v/@n4bb12/celeste-api-types?icon=npm">
+  <a href="https://www.npmjs.com/package/celeste-api-types">
+    <img alt="Version" src="https://flat.badgen.net/npm/v/celeste-api-types?icon=npm">
   </a>
   <a href="https://raw.githubusercontent.com/n4bb12/celeste-api-types/master/LICENSE">
     <img alt="License" src="https://flat.badgen.net/github/license/n4bb12/celeste-api-types?icon=github">
