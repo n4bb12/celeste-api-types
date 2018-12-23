@@ -56,9 +56,9 @@ export interface Advisor {
   sellable: string // FIXME should be `boolean`
   tradeable: string // FIXME should be `boolean`
   destroyable: string // FIXME should be `boolean`
-  civilization: string
-  shortdescriptionid: string // FIXME should be `number`
-  specialborder: string // FIXME should be `boolean`
+  civilization?: string
+  shortdescriptionid?: string // FIXME should be `number`
+  specialborder?: string // FIXME should be `boolean`
 }
 
 export interface Advisors {
