@@ -1,0 +1,41 @@
+{
+  "name": "celeste-api-types",
+  "version": "0.0.0",
+  "private": true,
+  "keywords": [
+    "age",
+    "aoeo",
+    "api",
+    "celeste",
+    "empires",
+    "fan",
+    "of",
+    "online",
+    "project",
+    "rest",
+    "types",
+    "typescript"
+  ],
+  "homepage": "https://github.com/n4bb12/celeste-api-types/blob/master/README.md",
+  "bugs": "https://github.com/n4bb12/celeste-api-types/issues",
+  "repository": "github:n4bb12/celeste-api-types",
+  "license": "ISC",
+  "author": "Abraham Schilling",
+  "files": [
+    "src"
+  ],
+  "types": "src/index.ts",
+  "scripts": {
+    "build": "tsc --project tsconfig.json",
+    "lint": "tslint --project tsconfig.json --config tslint.json"
+  },
+  "devDependencies": {
+    "@n4bb12/config-tslint": "^1.4.1",
+    "tslint": "~5.11.0",
+    "typescript": "~3.1.6"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "$schema": "http://json.schemastore.org/package"
+}
