@@ -1,7 +1,12 @@
 {
   "$schema": "http://json.schemastore.org/tsconfig",
   "compilerOptions": {
+    "esModuleInterop": true,
+    "lib": [
+      "esnext"
+    ],
     "noEmit": true,
+    "noImplicitAny": false,
     "strict": true
   }
 }
