@@ -70,7 +70,7 @@ export interface Trait {
   displaynameid: number
   offertype: "eOfferNone" | "eOfferCivMatching" | "eOfferCeleste1"
   visualfactor: Array<{ type: string, factor: number }>
-  itemlevels: object
+  itemlevels: number[]
   sellable: "0" | "1"
   tradeable: "0" | "1"
   destroyable: "1"
