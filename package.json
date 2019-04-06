@@ -25,8 +25,8 @@
   ],
   "types": "src/index.ts",
   "scripts": {
-    "generate": "ts-node generate",
     "compile": "tsc --project tsconfig.json",
+    "generate": "ts-node generate",
     "lint": "tslint --project tsconfig.json --config tslint.json"
   },
   "devDependencies": {
