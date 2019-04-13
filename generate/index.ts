@@ -17,6 +17,7 @@ async function generate() {
   // await deriveTypes("/game/lootrolls")
   await deriveTypes("/game/materials")
   await deriveTypes("/game/traits")
+  await deriveTypes("/game/protodata")
   // await deriveTypes("leaderboards/crete_solo")
   // await deriveTypes("leaderboards/halloween")
   // await deriveTypes("leaderboards/sparta_1v1")

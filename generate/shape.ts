@@ -20,7 +20,7 @@ export function printShape(data) {
     const prefix = "  " + key + (keycount[key] < length ? "?" : "") + ": "
 
     if (values.length < 50) {
-      shape[key] = prefix + values.map(value => inspect(value, false, 10)).join(" | ")
+      shape[key] = prefix + values.map(value => inspect(value, false, 1)).join(" | ")
     } else {
       shape[key] = prefix + typeof values[0]
     }
