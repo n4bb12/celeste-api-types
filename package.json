@@ -37,6 +37,7 @@
     "chalk": "^2.4.2",
     "filenamify": "^4.0.0",
     "fs-extra": "^7.0.1",
+    "release-it": "^10.4.2",
     "ts-node": "^8.0.3",
     "tslint": "^5.15.0",
     "typescript": "~3.4.3"
